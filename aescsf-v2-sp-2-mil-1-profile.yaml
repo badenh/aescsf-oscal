@@ -1,0 +1,124 @@
+profile:
+  uuid: bdd29021-98e8-5184-82c2-40ee8ffaf81e
+  metadata:
+    title: AESCSF v2 — SP-2 at MIL-1 Baseline
+    last-modified: '2026-08-29T03:36:36+00:00'
+    version: '2'
+    oscal-version: 1.2.2
+    props:
+    - name: framework-id
+      value: aescsf
+      ns: https://aemo.com.au/ns/oscal/aescsf
+    - name: framework-version
+      value: '2'
+      ns: https://aemo.com.au/ns/oscal/aescsf
+    - name: profile-key
+      value: sp-2-mil-1
+      ns: https://aemo.com.au/ns/oscal/aescsf
+    - name: max-mil
+      value: '1'
+      ns: https://aemo.com.au/ns/oscal/aescsf
+    - name: max-security-profile
+      value: '2'
+      ns: https://aemo.com.au/ns/oscal/aescsf
+    - name: control-count
+      value: '62'
+      ns: https://aemo.com.au/ns/oscal/aescsf
+    links:
+    - href: https://aemo.com.au/initiatives/major-programs/cyber-security/aescsf-framework-and-resources
+      rel: canonical
+    roles:
+    - id: publisher
+      title: Framework publisher
+    - id: converter
+      title: OSCAL conversion author
+    parties:
+    - uuid: c99e821e-03a8-5545-9772-1795382eff3c
+      type: organization
+      name: Australian Energy Market Operator
+      short-name: AEMO
+      links:
+      - href: https://aemo.com.au/initiatives/major-programs/cyber-security/aescsf-framework-and-resources
+        rel: homepage
+    responsible-parties:
+    - role-id: publisher
+      party-uuids:
+      - c99e821e-03a8-5545-9772-1795382eff3c
+  imports:
+  - href: aescsf-v2-catalog.json
+    include-controls:
+    - with-ids:
+      - access-1a
+      - access-1b
+      - access-1c
+      - access-2a
+      - access-2b
+      - access-3a
+      - access-3b
+      - access-3c
+      - access-ap1
+      - architecture-1a
+      - architecture-2a
+      - architecture-2b
+      - architecture-3a
+      - architecture-3b
+      - architecture-5a
+      - asset-1a
+      - asset-2a
+      - asset-3a
+      - asset-4a
+      - asset-4b
+      - privacy-1a
+      - privacy-1b
+      - privacy-1c
+      - program-1a
+      - program-2a
+      - response-1a
+      - response-2a
+      - response-2b
+      - response-3a
+      - response-3b
+      - response-3c
+      - response-4a
+      - response-4b
+      - response-4c
+      - risk-1a
+      - risk-2a
+      - risk-3a
+      - risk-4a
+      - situation-1a
+      - situation-2a
+      - situation-2b
+      - situation-ap2
+      - third-parties-1a
+      - third-parties-1b
+      - third-parties-2a
+      - third-parties-2b
+      - threat-1a
+      - threat-1b
+      - threat-1c
+      - threat-1d
+      - threat-2a
+      - threat-2b
+      - threat-2c
+      - threat-2d
+      - threat-ap1
+      - workforce-1a
+      - workforce-1b
+      - workforce-2a
+      - workforce-3a
+      - workforce-3b
+      - workforce-4a
+      - workforce-4b
+  merge:
+    as-is: true
+  back-matter:
+    resources:
+    - uuid: 8a5a1b17-ff62-5721-ba9b-8a2e2935c0b3
+      title: Scope basis
+      description: 'AESCSF v2 practices and anti-patterns in scope for an SP-2 entity assessed to MIL-1.
+        Both axes are cumulative: the set is SP-1..SP-2 intersected with MIL-1..MIL-1.'
+      props:
+      - name: reference-type
+        value: scope-basis
+        ns: https://aemo.com.au/ns/oscal/aescsf

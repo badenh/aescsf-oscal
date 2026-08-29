@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<profile xmlns="http://csrc.nist.gov/ns/oscal/1.0" uuid="bdd29021-98e8-5184-82c2-40ee8ffaf81e">
+  <metadata>
+    <title>AESCSF v2 — SP-2 at MIL-1 Baseline</title>
+    <last-modified>2026-08-29T03:36:36+00:00</last-modified>
+    <version>2</version>
+    <oscal-version>1.2.2</oscal-version>
+    <prop name="framework-id" value="aescsf" ns="https://aemo.com.au/ns/oscal/aescsf"/>
+    <prop name="framework-version" value="2" ns="https://aemo.com.au/ns/oscal/aescsf"/>
+    <prop name="profile-key" value="sp-2-mil-1" ns="https://aemo.com.au/ns/oscal/aescsf"/>
+    <prop name="max-mil" value="1" ns="https://aemo.com.au/ns/oscal/aescsf"/>
+    <prop name="max-security-profile" value="2" ns="https://aemo.com.au/ns/oscal/aescsf"/>
+    <prop name="control-count" value="62" ns="https://aemo.com.au/ns/oscal/aescsf"/>
+    <link href="https://aemo.com.au/initiatives/major-programs/cyber-security/aescsf-framework-and-resources" rel="canonical"/>
+    <role id="publisher">
+      <title>Framework publisher</title>
+    </role>
+    <role id="converter">
+      <title>OSCAL conversion author</title>
+    </role>
+    <party uuid="c99e821e-03a8-5545-9772-1795382eff3c" type="organization">
+      <name>Australian Energy Market Operator</name>
+      <short-name>AEMO</short-name>
+      <link href="https://aemo.com.au/initiatives/major-programs/cyber-security/aescsf-framework-and-resources" rel="homepage"/>
+    </party>
+    <responsible-party role-id="publisher">
+      <party-uuid>c99e821e-03a8-5545-9772-1795382eff3c</party-uuid>
+    </responsible-party>
+  </metadata>
+  <import href="aescsf-v2-catalog.json">
+    <include-controls>
+      <with-id>access-1a</with-id>
+      <with-id>access-1b</with-id>
+      <with-id>access-1c</with-id>
+      <with-id>access-2a</with-id>
+      <with-id>access-2b</with-id>
+      <with-id>access-3a</with-id>
+      <with-id>access-3b</with-id>
+      <with-id>access-3c</with-id>
+      <with-id>access-ap1</with-id>
+      <with-id>architecture-1a</with-id>
+      <with-id>architecture-2a</with-id>
+      <with-id>architecture-2b</with-id>
+      <with-id>architecture-3a</with-id>
+      <with-id>architecture-3b</with-id>
+      <with-id>architecture-5a</with-id>
+      <with-id>asset-1a</with-id>
+      <with-id>asset-2a</with-id>
+      <with-id>asset-3a</with-id>
+      <with-id>asset-4a</with-id>
+      <with-id>asset-4b</with-id>
+      <with-id>privacy-1a</with-id>
+      <with-id>privacy-1b</with-id>
+      <with-id>privacy-1c</with-id>
+      <with-id>program-1a</with-id>
+      <with-id>program-2a</with-id>
+      <with-id>response-1a</with-id>
+      <with-id>response-2a</with-id>
+      <with-id>response-2b</with-id>
+      <with-id>response-3a</with-id>
+      <with-id>response-3b</with-id>
+      <with-id>response-3c</with-id>
+      <with-id>response-4a</with-id>
+      <with-id>response-4b</with-id>
+      <with-id>response-4c</with-id>
+      <with-id>risk-1a</with-id>
+      <with-id>risk-2a</with-id>
+      <with-id>risk-3a</with-id>
+      <with-id>risk-4a</with-id>
+      <with-id>situation-1a</with-id>
+      <with-id>situation-2a</with-id>
+      <with-id>situation-2b</with-id>
+      <with-id>situation-ap2</with-id>
+      <with-id>third-parties-1a</with-id>
+      <with-id>third-parties-1b</with-id>
+      <with-id>third-parties-2a</with-id>
+      <with-id>third-parties-2b</with-id>
+      <with-id>threat-1a</with-id>
+      <with-id>threat-1b</with-id>
+      <with-id>threat-1c</with-id>
+      <with-id>threat-1d</with-id>
+      <with-id>threat-2a</with-id>
+      <with-id>threat-2b</with-id>
+      <with-id>threat-2c</with-id>
+      <with-id>threat-2d</with-id>
+      <with-id>threat-ap1</with-id>
+      <with-id>workforce-1a</with-id>
+      <with-id>workforce-1b</with-id>
+      <with-id>workforce-2a</with-id>
+      <with-id>workforce-3a</with-id>
+      <with-id>workforce-3b</with-id>
+      <with-id>workforce-4a</with-id>
+      <with-id>workforce-4b</with-id>
+    </include-controls>
+  </import>
+  <merge>
+    <as-is>true</as-is>
+  </merge>
+  <back-matter>
+    <resource uuid="8a5a1b17-ff62-5721-ba9b-8a2e2935c0b3">
+      <title>Scope basis</title>
+      <description>
+        <p>AESCSF v2 practices and anti-patterns in scope for an SP-2 entity assessed to MIL-1. Both axes are cumulative: the set is SP-1..SP-2 intersected with MIL-1..MIL-1.</p>
+      </description>
+      <prop name="reference-type" value="scope-basis" ns="https://aemo.com.au/ns/oscal/aescsf"/>
+    </resource>
+  </back-matter>
+</profile>
